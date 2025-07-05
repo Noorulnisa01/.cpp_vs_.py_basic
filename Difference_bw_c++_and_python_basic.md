@@ -3,7 +3,7 @@
 
 ## ***Authourized by :*** *NOOR UL NISA*
 
-## ***Contact by:   [Github](https://github.com/Noorulnisa01) / [Linkdein](https://www.linkedin.com/in/noor-ul-nisa-a10738356/)***
+## ***Contact by:   [Github](https://github.com/Noorulnisa01) / [Linkdein](https://www.linkedin.com/in/noorulnisa01/)***
 
 ## 📑 ***Table of Contents***
 

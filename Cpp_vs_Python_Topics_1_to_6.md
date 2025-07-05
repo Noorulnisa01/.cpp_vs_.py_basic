@@ -1,4 +1,3 @@
-C++ vs Python
 
 # ***Subject of the notebook: C++ vs Python (Full Notes)***
 
@@ -6,7 +5,7 @@ C++ vs Python
 
 ## ***Contact by:   [Github](https://github.com/Noorulnisa01) / [Linkdein](https://www.linkedin.com/in/noor-ul-nisa-a10738356/)***
 
-# 📑 ***Table of Contents***
+## 📑 ***Table of Contents***
 
 - [🔹 1. What is C++?](#-1-what-is-c)
 - [🔹 2. What is Python?](#-2-what-is-python)
@@ -30,14 +29,14 @@ C++ vs Python
 
 **Definition**: C++ is a general-purpose, compiled, statically typed programming language created by Bjarne Stroustrup. It is an extension of the C language and supports procedural, object-oriented, and generic programming.
 
-### ✅ Key Features
+### ✅ Key Features of C++
 
 - **Compiled Language**: Requires a compiler (like `g++`) to convert code into machine code.
 - **Statically Typed**: Data types must be declared explicitly.
 - **High Performance**: Great for system-level programming.
 - **Supports OOP**: Classes, objects, inheritance, polymorphism, etc.
 
-### ✅ Sample Program
+### ✅ Sample Program (C++)
 
 ```cpp
 #include<iostream>
@@ -53,7 +52,7 @@ int main() {
 
 **Definition**: Python is an interpreted, dynamically typed, high-level programming language created by Guido van Rossum. It emphasizes code readability and simplicity.
 
-### ✅ Key Features
+### ✅ Key Features of Python
 
 - **Interpreted Language**: Runs line-by-line using Python interpreter.
 - **Dynamically Typed**: No need to declare variable types.
@@ -620,7 +619,7 @@ Recursion is a programming technique where a function calls itself to solve smal
 
 ---
 
-### 🔸 Basic Structure
+### 🔸 *Basic Structure*
 
 | Language | Syntax                |
 | -------- | --------------------- |
@@ -629,19 +628,19 @@ Recursion is a programming technique where a function calls itself to solve smal
 
 ---
 
-### 🔸 What is Factorial?
+>### 🔸 ***What is Factorial?***
 
 The **factorial** of a non-negative integer `n` is the product of all positive integers less than or equal to `n`.
 
 **Mathematical Formula:**
 
-```
+```python
 n! = n × (n-1) × (n-2) × ... × 1
 ```
 
 **Example:**
 
-```
+```python
 5! = 5 × 4 × 3 × 2 × 1 = 120
 ```
 
@@ -673,7 +672,7 @@ def factorial(n):
 
 ---
 
-### 🔸 What is Fibonacci Sequence?
+>### 🔸 ***What is Fibonacci Sequence?***
 
 The **Fibonacci sequence** is a series of numbers where each number is the sum of the two preceding ones.
 
@@ -685,14 +684,14 @@ F(n) = F(n-1) + F(n-2)
 
 With base cases:
 
-```
+```python
 F(0) = 0,
 F(1) = 1
 ```
 
 **Example:**
 
-```
+```python
 F(0) = 0
 F(1) = 1
 F(2) = 1
@@ -706,7 +705,7 @@ F(5) = 5
 - Appears in nature (e.g., spirals, growth patterns)
 - Used in algorithm design, dynamic programming, and recursion examples
 
-### 🔸 Example: Fibonacci using Recursion
+### 🔸 *Example: Fibonacci using Recursion*
 
 **C++ Example:**
 
@@ -737,7 +736,7 @@ def fibonacci(n):
 
 ---
 
-### 🔄 Iteration vs Recursion
+>### 🔄 ***Iteration vs Recursion***
 
 | Feature      | Iteration                 | Recursion                   |
 | ------------ | ------------------------- | --------------------------- |
@@ -746,11 +745,11 @@ def fibonacci(n):
 | Readability  | Simple for small problems | Elegant for recursive logic |
 | Speed        | Generally faster          | Slower due to call overhead |
 
->## 🔹 11. Type Conversion
+>## 🔹 ***11. Type Conversion***
 
-### 📌 What is Type Conversion?
+### 📌 ***What is Type Conversion?***
 
-Type conversion is the process of converting one data type into another. This is essential when performing operations involving multiple data types.
+**Type conversion** is the *process of converting one data type into another*. This is essential when performing operations involving multiple data types.
 
 ---
 

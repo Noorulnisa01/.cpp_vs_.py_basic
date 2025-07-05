@@ -25,7 +25,7 @@
 
 ---
 
->## 🔹 *1. What is C++?*
+>## 🔹 ***1. What is C++?***
 
 **Definition**: C++ is a general-purpose, compiled, statically typed programming language created by Bjarne Stroustrup. It is an extension of the C language and supports procedural, object-oriented, and generic programming.
 
@@ -48,7 +48,7 @@ int main() {
 }
 ```
 
->## 🔹 *2. What is Python?*
+>## 🔹 ***2. What is Python?***
 
 **Definition**: Python is an interpreted, dynamically typed, high-level programming language created by Guido van Rossum. It emphasizes code readability and simplicity.
 
@@ -130,9 +130,9 @@ name = "Alice"
 | Boolean   | `bool`                 | `bool`         | `bool b = true;`    | `b = True`       |
 | Null/None | `nullptr`, `NULL`      | `None`         | `int* p = nullptr;` | `x = None`       |
 
->## 🔹 *5. Strings*
+>## 🔹 ***5. Strings***
 
-### 📌 What is a String?
+### 📌 **What is a String?**
 
 A **string** is a sequence of characters used to store and manipulate text.
 
@@ -163,11 +163,11 @@ name = "Alice"
 print(name)
 ```
 
->## 🔹 *6. String Indexing*
+>## 🔹 ***6. String Indexing***
 
-### 📌 What is String Indexing?
+### 📌 **What is String Indexing?**
 
-**String indexing** allows access to individual characters in a string using positions (indexes).
+**String indexing** allows *access to individual characters in a string using positions* (indexes).
 
 - Index starts from 0 in both languages.
 - Python supports negative indexing (e.g., `-1` is last character), C++ does not.
@@ -199,9 +199,9 @@ print(s[1:4])     # yth
 print(s[-1])      # n
 ```
 
->## 🔹 *7. Loops*
+>## 🔹 ***7. Loops***
 
-### 📌 What is a Loop?
+### 📌 **What is a Loop?**
 
 A **loop** allows you to execute a block of code repeatedly as long as a certain condition is true. It is useful for tasks like iteration, repetition, and automation.
 
@@ -215,7 +215,7 @@ A **loop** allows you to execute a block of code repeatedly as long as a certain
 
 ---
 
->### 🔸 *For Loop*
+>### 🔸 ***For Loop***
 
 **Definition:** Used when the number of iterations is known.
 
@@ -243,7 +243,7 @@ for i in range(5):
 
 ---
 
->### 🔸 *While Loop*
+>### 🔸 ***While Loop***
 
 **Definition:** Repeats as long as a condition is true.
 
@@ -274,7 +274,7 @@ while i < 5:
 
 ---
 
->### 🔸 *Do-While Loop* *(Only in C++)*
+>### 🔸 ***Do-While Loop* *(Only in C++)***
 
 **Definition:** Runs at least once before checking the condition.
 
@@ -295,7 +295,7 @@ do {
 
 ---
 
-### ✅ Loop Control Statements
+>### ✅ ***Loop Control Statements***
 
 | Statement  | Purpose                    | C++ Syntax  | Python Syntax |
 | ---------- | -------------------------- | ----------- | ------------- |
@@ -321,7 +321,7 @@ for(int i = 0; i < 5; i++) {
 }
 ```
 
-### 🔄 Loop Comparison
+>### 🔄 ***Loop Comparison***
 
 | Type        | Condition Location | Runs at Least Once | C++ | Python |
 |-------------|--------------------|---------------------|-----|--------|
@@ -331,7 +331,7 @@ for(int i = 0; i < 5; i++) {
 
 ---
 
->## 🔹 *8. Conditional Statements*
+>## 🔹 ***8. Conditional Statements***
 
 ### 📌 *What are Conditional Statements?*
 
@@ -339,7 +339,7 @@ for(int i = 0; i < 5; i++) {
 
 ---
 
-### ✅ Common Types of Conditional Statements
+### ✅ **Common Types of Conditional Statements**
 
 1. `if` statement
 2. `if-else` statement
@@ -444,7 +444,7 @@ else:
 
 ---
 
->### 🔸 *4. Switch Statement (Only in C++)*
+>### 🔸 ***4. Switch Statement (Only in C++)***
 
 **Definition:** A multi-branch conditional that tests a variable for equality against multiple values.
 
@@ -485,7 +485,7 @@ match day:
 
 ---
 
-### 🔄 Summary Table
+### 🔄 **Summary Table**
 
 | Condition Type | C++               | Python            |
 |----------------|-------------------|-------------------|
@@ -494,11 +494,11 @@ match day:
 | Else-If/Elif   | ✅ `else if`       | ✅ `elif`          |
 | Switch/Match   | ✅ `switch`        | ✅ `match-case` (3.10+) |
 
->## 🔹 *9. Functions*
+>## 🔹 ***9. Functions***
 
-### 📌 What is a Function?
+### 📌 *What is a Function?*
 
-A **function** is a reusable block of code that performs a specific task. Functions help organize code, reduce repetition, and improve readability.
+A **function** is a *reusable block* of code that performs a specific task. Functions help organize code, reduce repetition, and improve readability.
 
 ---
 
@@ -511,7 +511,7 @@ A **function** is a reusable block of code that performs a specific task. Functi
 
 ---
 
-### 🔸 Function Syntax Comparison
+>### 🔸 ***Function Syntax Comparison***
 
 | Feature    | C++                         | Python                 |
 | ---------- | --------------------------- | ---------------------- |
@@ -522,13 +522,13 @@ A **function** is a reusable block of code that performs a specific task. Functi
 
 ---
 
-### 🔸 1. Built-in Functions
+### 🔸 ***1. Built-in Functions***
 
 **C++ Examples:** `cout`, `cin`, `sqrt()`, `strlen()` **Python Examples:** `print()`, `len()`, `type()`, `input()`
 
 ---
 
-### 🔸 2. User-defined Function
+### 🔸 ***2. User-defined Function***
 
 **C++ Example:**
 
@@ -557,7 +557,7 @@ greet()
 
 ---
 
->### 🔸 *3. Function with Parameters*
+>### 🔸 ***3. Function with Parameters***
 
 **C++ Example:**
 
@@ -576,7 +576,7 @@ def greet(name):
 
 ---
 
-### 🔸 4. Function with Return Value
+### 🔸 ***4. Function with Return Value***
 
 **C++ Example:**
 
@@ -604,9 +604,9 @@ def add(a, b):
 | Function Overloading | Supported                 | Not supported      |
 | Default Parameters   | Supported                 | Supported          |
 
->## 🔹 *10. Recursion*
+>## 🔹 ***10. Recursion***
 
-### 📌 What is Recursion?
+### 📌 *What is Recursion?*
 
 Recursion is a programming technique where a function calls itself to solve smaller instances of the same problem.
 
@@ -705,7 +705,7 @@ F(5) = 5
 - Appears in nature (e.g., spirals, growth patterns)
 - Used in algorithm design, dynamic programming, and recursion examples
 
-### 🔸 *Example: Fibonacci using Recursion*
+### 🔸 ***Example: Fibonacci using Recursion***
 
 **C++ Example:**
 
@@ -728,7 +728,7 @@ def fibonacci(n):
 
 ---
 
-### ⚠️ Things to Remember
+>### ⚠️ ***Things to Remember***
 
 - Always have a **base case** to stop recursion.
 - Recursive calls should move toward the base case.
@@ -753,7 +753,7 @@ def fibonacci(n):
 
 ---
 
-### ✅ Why Use Type Conversion?
+>### ✅ ***Why Use Type Conversion?***
 
 - To avoid type mismatch errors
 - To perform meaningful operations across types
@@ -761,7 +761,7 @@ def fibonacci(n):
 
 ---
 
-### 🔸 Types of Type Conversion
+### 🔸 **Types of Type Conversion**
 
 | Type                | C++                          | Python                         |
 |---------------------|-------------------------------|---------------------------------|
@@ -770,7 +770,7 @@ def fibonacci(n):
 
 ---
 
-### 🔸 1. Implicit Type Conversion
+>### 🔸 ***1. Implicit Type Conversion***
 
 Also known as **type promotion**. Happens automatically.
 
@@ -791,7 +791,7 @@ print(y)  # Output: 7.5
 
 ---
 
-### 🔸 2. Explicit Type Conversion (Type Casting)
+>### 🔸 ***2. Explicit Type Conversion (Type Casting)***
 
 Manually converting a value from one type to another.
 
@@ -814,21 +814,21 @@ approx = int(pi)  # approx = 3
 
 ---
 
-### 🔄 Common Type Casting Functions in Python
+### 🔄 **Common Type Casting Functions in Python**
 
 - `int()` → Convert to integer
 - `float()` → Convert to float
 - `str()` → Convert to string
 - `bool()` → Convert to boolean
 
-### 🔄 Common Type Casting in C++
+### 🔄 **Common Type Casting in C++**
 
 - `int(value)` *(C-style)*
 - `static_cast<new_type>(value)` *(Recommended)*
 
 ---
 
-### ⚠️ Note
+>### ⚠️ ***Note***
 
 Improper type casting can lead to:
 
@@ -837,13 +837,13 @@ Improper type casting can lead to:
 
 ># 🔹 *Data Structures (C++ vs Python)*
 
-## 📌 What are Data Structures?
+## 📌***What are Data Structures?***
 
-Data structures are specialized formats to organize, process, retrieve, and store data. They are essential for writing efficient algorithms and solving complex problems.
+**Data structures** are specialized formats to organize, process, retrieve, and store data. They are essential for writing efficient algorithms and solving complex problems.
 
 ---
 
-## ✅ Why Use Data Structures?
+## ✅ ***Why Use Data Structures?***
 
 - To store and access data efficiently.
 - To implement algorithms with optimal performance.
@@ -852,7 +852,7 @@ Data structures are specialized formats to organize, process, retrieve, and stor
 
 ---
 
-## 📊 Comparison of Common Data Structures
+>## 📊 ***Comparison of Common Data Structures***
 
 | Structure   | C++                     | Python                  | Purpose / Usage                                |
 |-------------|--------------------------|--------------------------|------------------------------------------------|
@@ -864,7 +864,7 @@ Data structures are specialized formats to organize, process, retrieve, and stor
 
 ---
 
-## 🔸 1. Arrays
+>## 🔸 ***1. Arrays***
 
 ### ➤ Definition
 
@@ -896,7 +896,7 @@ print(arr[1])  # Output: 20
 
 ---
 
-## 🔸 2. Vectors (C++) / Lists (Python)
+>## 🔸 ***2. Vectors (C++) / Lists (Python)***
 
 ### ➤ Definition
 
@@ -931,7 +931,7 @@ print(v[3])  # Output: 4
 
 ---
 
-## 🔸 3. Sets
+>## 🔸 ***3. Sets***
 
 ### ➤ Definition
 
@@ -968,7 +968,7 @@ print(s)  # Output: {10, 20, 30}
 
 ---
 
-## 🔸 4. Map (C++) / Dictionary (Python)
+>## 🔸 ***4. Map (C++) / Dictionary (Python)***
 
 ### ➤ Definition
 
@@ -1033,7 +1033,7 @@ print(age["Ali"])  # Output: 25
 
 ---
 
-## 🔸 Key OOP Concepts
+## 🔸 ***Key OOP Concepts***
 
 | Concept        | Description                                                                 |
 |----------------|-----------------------------------------------------------------------------|
@@ -1046,7 +1046,7 @@ print(age["Ali"])  # Output: 25
 
 ---
 
-## 🔸 Class and Object in C++
+## 🔸 ***Class and Object in C++***
 
 ```cpp
 #include <iostream>
@@ -1071,7 +1071,7 @@ int main() {
 }
 ```
 
-## 🔸 Class and Object in Python
+## 🔸 ***Class and Object in Python***
 
 ```python
 class Person:
@@ -1086,7 +1086,7 @@ p1 = Person("Ali", 22)
 p1.introduce()  # Output: My name is Ali and I am 22 years old.
 ```
 
-## 🔄 C++ vs Python: OOP Comparison Table
+>## 🔄 ***C++ vs Python: OOP Comparison Table***
 
 | **Feature**             | **C++**                          | **Python**                        |
 |-------------------------|----------------------------------|-----------------------------------|
@@ -1100,7 +1100,7 @@ p1.introduce()  # Output: My name is Ali and I am 22 years old.
 
 ---
 
-## 🧠 Summary
+>## 🧠 ***Summary***
 
 - **OOP** helps structure code in a more understandable and maintainable way.  
 - **C++** offers more control (e.g., access modifiers), while **Python** simplifies the syntax.  
